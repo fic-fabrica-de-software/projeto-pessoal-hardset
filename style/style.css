@@ -1,3 +1,12 @@
 body{
-    background-color: rgb(3, 37, 100);
+    background-color: #193154;
+}
+
+nav{
+
+   background-color: #25487b; 
+}
+
+#logo_hardset{
+    height: 75px;
 }
