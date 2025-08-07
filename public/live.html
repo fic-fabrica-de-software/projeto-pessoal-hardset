@@ -1,27 +1,32 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hardset</title>
     <link rel="stylesheet" href="../style/style.css">
+    <script src="../script/toggle.js" defer></script>
 </head>
-<header>
-    <nav> 
-        <p><img src="../style/assets/IESEM (1).png" alt="logo" id="logo_hardset"></p>
-        <button class="login">Entrar</button>
-        <button class="login">Cadastro</button>
-    </nav>
-   
-</header>
-    
 <body>
+  <header>
+    <nav>
+      <img src="../style/assets/IESEM (1).png" alt="logo" id="logo_hardset">
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      <div id="menu">
+        <ul>
+          <li><a href="dashboard.html">Inicio</a></li>
+          <li><a href="rotas.html">Rotas</a></li>
+          <li><a href="notificacao.html">Notificação</a></li>
+          <li><a href="relatorio.html">Relatorio</a></li>
+          <li><a href="manutencao.html">Manutenção</a></li>
+          <li><a href="suporte.html">Suporte</a></li>
+          <li><a href="../index.html">Sair</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
   <main id="main_live">
-    <h2>Live <img src="../style/assets/live.png" alt=""></h2>
-
-  </main>  
-
+    <h2>Live <img src="../style/assets/live.png" alt="" id="live"></h2>
+  </main>
 </body>
-
-
-
 </html>
