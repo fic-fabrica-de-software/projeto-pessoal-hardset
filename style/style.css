@@ -154,5 +154,96 @@ nav {
     height: 20px;
 }
 
+.container-hoje {
+  background: #22395a;
+  border-radius: 10px;
+  max-width: 440px;
+  margin: 36px auto 0 auto;
+  padding: 20px 12px 28px 12px;
+  color: #fff;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-hoje h2 {
+  margin-top: 0;
+  font-size: 1.7rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.container-hoje hr {
+  border: none;
+  border-top: 1.5px solid #fff;
+  margin-bottom: 14px;
+}
+
+.jogos-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.jogo-card {
+  display: flex;
+  align-items: center;
+  background: #f7f7f7;
+  border-radius: 7px;
+  padding: 10px 15px;
+  min-height: 100px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  gap: 100px;
+  border: 10px solid #e0e0e0;
+}
+
+.bandeira {
+  width: 52px;
+  height: 34px;
+  object-fit: contain;
+  background: #eaeaea;
+  border-radius: 3px;
+  border: 1px solid #d0d0d0;
+  box-shadow: 0 0.5px 2px rgba(0,0,0,0.03);
+}
+
+.jogo-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 6px;
+}
+
+.jogo-titulo {
+  color: #1d2c45;
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin-bottom: 1px;
+  letter-spacing: 0.1px;
+}
+
+.jogo-horario {
+  color: #2d3e5e;
+  font-size: 0.98rem;
+  font-weight: 500;
+  opacity: 0.93;
+}
+
+@media (max-width: 600px) {
+  .container-hoje {
+    max-width: 99vw;
+    padding: 8px 1vw;
+  }
+  .jogo-card {
+    padding: 2px 2px;
+    min-height: 38px;
+  }
+  .bandeira {
+    width: 32px;
+    height: 20px;
+  }
+}
+
 
 
