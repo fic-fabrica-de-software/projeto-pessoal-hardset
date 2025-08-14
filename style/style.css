@@ -114,6 +114,45 @@ nav {
   transition: background 0.2s, color 0.2s;
 }
 
+#main_live{
+    display: flex;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;  
+}
+.body{
+    background-color: bisque;
+}
+.roxo{
+    background-color: rgb(23, 0, 153);
+    padding: 100px;
+    display: flex;
+}
+.cinza{
+    background-color: rgb(214, 213, 213);
+    padding: 70px;
+    margin: 20px;
+    height: 20px;
+}
+.extender{
+    background-color:rgb(252, 195, 242);
+    padding-right: 100px;
+}
+.flex{
+    display: flex;
+}
+.cinza1{
+    background-color: rgb(214, 213, 213);
+    padding: 50px;
+    margin: 15px;
+    height: 05px;
+}
+.azul{
+    background-color: rgb(53, 95, 150);
+    padding: 70px;
+    margin: 20px;
+    height: 20px;
+}
 
 
 
