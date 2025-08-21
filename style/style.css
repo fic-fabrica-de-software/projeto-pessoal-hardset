@@ -230,6 +230,109 @@ nav {
   opacity: 0.93;
 }
 
+.container-fotos {
+  background: #22395a;
+  border-radius: 10px;
+  max-width: 540px;
+  margin: 36px auto 0 auto;
+  padding: 20px 12px 28px 12px;
+  color: #fff;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fotos-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.container-fotos h2 {
+  margin: 0 0 0 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon-fotos {
+  width: 32px;
+  height: 32px;
+  margin-left: 4px;
+}
+
+.container-fotos hr {
+  border: none;
+  border-top: 1.5px solid #fff;
+  margin: 12px 0 18px 0;
+}
+
+.fotos-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.foto-item {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 7px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.10);
+  margin: 0 auto;
+  display: block;
+}
+
+.container-calendario {
+  background: #22395a;
+  border-radius: 10px;
+  max-width: 420px;
+  margin: 36px auto 0 auto;
+  padding: 20px 12px 28px 12px;
+  color: #fff;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-calendario h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.container-calendario hr {
+  border: none;
+  border-top: 1.5px solid #fff;
+  margin: 12px 0 18px 0;
+}
+
+.calendario-simples {
+  width: 100%;
+  border-collapse: collapse;
+  background: #f7f7f7;
+  border-radius: 7px;
+  overflow: hidden;
+  color: #22395a;
+  font-size: 1.05rem;
+  margin: 0 auto;
+}
+
+.calendario-simples th, .calendario-simples td {
+  border: 1px solid #e0e0e0;
+  text-align: center;
+  padding: 8px 0;
+  min-width: 32px;
+}
+
+.calendario-simples th {
+  background: #e3eaf6;
+  font-weight: 600;
+}
+
+.calendario-simples td {
+  background: #fff;
+}
+
 @media (max-width: 600px) {
   .container-hoje {
     max-width: 99vw;
@@ -242,6 +345,21 @@ nav {
   .bandeira {
     width: 32px;
     height: 20px;
+  }
+  .container-fotos {
+    max-width: 99vw;
+    padding: 8px 1vw;
+  }
+  .foto-item {
+    max-width: 98vw;
+  }
+  .container-calendario {
+    max-width: 99vw;
+    padding: 8px 1vw;
+  }
+  .calendario-simples th, .calendario-simples td {
+    padding: 4px 0;
+    font-size: 0.95rem;
   }
 }
 
