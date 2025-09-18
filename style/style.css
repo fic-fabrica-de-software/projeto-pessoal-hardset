@@ -363,5 +363,71 @@ nav {
   }
 }
 
-
+    .podium {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      max-width: 300px;
+      margin: 20px auto;
+      align-items: end;
+    }
+    .podium div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #7db4e0;
+    }
+    .p1 { height: 60px; }
+    .p2 { height: 100px; background: #2e4880; }
+    .p3 { height: 80px; }
+    .nav {
+      display: flex;
+      justify-content: space-around;
+      background: #2c476b;
+      padding: 10px;
+      border-radius: 10px;
+      margin: 0 10px;
+    }
+    .nav div {
+      text-align: center;
+      font-size: 12px;
+    }
+    .card {
+      background: #111;
+      margin: 20px;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .card h2 {
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+    .match {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .match div {
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin: 20px;
+    }
+    .gallery div, .gallery img {
+      height: 100px;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+    .gallery div {
+      background: #265d98;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+    }
+  </style>
 
