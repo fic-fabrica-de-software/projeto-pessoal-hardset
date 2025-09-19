@@ -22,23 +22,84 @@
       </div> 
     </nav>
 </header>
+
 <body>
-                 <div>
-                <div class="cinza"></div>
-                <div class="flex">
-                    <div>
-                        <div class="flex">
-                            oi
-                            <div class="cinza1"></div>
-                            <div class="cinza1"></div>
-                            <div class="cinza1"></div>
-                            <div class="cinza1"></div>
-                    </div> 
-                    <div class="azul"></div>
-                 </div>
-            </div>
-        </div>
+  <div class="container">
+    <header>
+      <div class="header-left">
+        <button class="back-btn">&#8592;</button>
+        <img src="logo.png" alt="HardSet Logo" class="logo" />
+      </div>
+      <div class="points">0 pontos</div>
+    </header>
+
+    <div class="tabs">
+      <button class="tab active">Em Destaque</button>
+      <button class="tab">Proximos eventos</button>
     </div>
 
+    <section class="highlight-matches">
+      <div class="match-card">
+        <div class="teams">
+          <img src="team1.png" alt="Time 1" />
+          <span>vs</span>
+          <img src="team2.png" alt="Time 2" />
+        </div>
+      </div>
+      <div class="match-card">
+        <div class="teams">
+          <img src="team3.png" alt="Time 1" />
+          <span>vs</span>
+          <img src="team4.png" alt="Time 2" />
+        </div>
+      </div>
+    </section>
+
+    <section class="today-matches">
+      <div class="match-box">
+        <p class="time">Hoje 11:30</p>
+        <div class="teams">
+          <img src="team1.png" alt="Time 1" />
+          <span>vs</span>
+          <img src="team2.png" alt="Time 2" />
+        </div>
+        <div class="odds">
+          <span>1</span><span>1.5</span>
+          <span>x</span><span>4.0</span>
+          <span>2</span><span>7.0</span>
+        </div>
+      </div>
+
+      <div class="match-box">
+        <p class="time">Hoje 11:30</p>
+        <div class="teams">
+          <img src="team3.png" alt="Time 1" />
+          <span>vs</span>
+          <img src="team4.png" alt="Time 2" />
+        </div>
+        <div class="odds">
+          <span>1</span><span>1.2</span>
+          <span>x</span><span>4.0</span>
+          <span>2</span><span>?</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-bets">
+      <p>Partidas em destaque</p>
+      <div class="bet">
+        <span>x</span>
+        <span>Time 2</span>
+        <span>1.50</span>
+        <small>Resultado final</small>
+        <small>Time 1 vs Time 2</small>
+      </div>
+    </section>
+
+    <footer>
+      <button class="footer-btn">Valor da SET</button>
+      <button class="footer-btn primary">Fazer SET</button>
+    </footer>
+  </div>
 </body>
 </html>
