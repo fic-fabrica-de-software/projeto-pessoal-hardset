@@ -583,3 +583,96 @@ footer {
   background-color: #ffcc00;
   color: black;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1A3A55;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.flags img {
+    width: 50px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.icon img {
+    width: 40px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.tab {
+    background-color: #2E5A72;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.tab:hover {
+    background-color: #1A3A55;
+}
+
+.current-event {
+    background-color: #2E5A72;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.current-event h2 {
+    margin-bottom: 20px;
+}
+
+.match {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.match img {
+    width: 50px;
+}
+
+.photos {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.image-gallery img {
+    width: 150px;
+    border-radius: 10px;
+}
