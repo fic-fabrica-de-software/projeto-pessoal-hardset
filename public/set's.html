@@ -8,6 +8,12 @@
 </head>
 <header>
      <nav> 
+      <script>
+  function toggleMenu() {
+    const menu = document.getElementById("menu");
+    menu.classList.toggle("active"); // por exemplo
+  }
+</script>
       <p><img src="../style/assets/IESEM (1).png" alt="logo" id="logo_hardset"></p>
            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
       <div id="menu">
@@ -24,44 +30,33 @@
 </header>
 
 <body>
-  <div class="container">
-    <header>
-      <div class="header-left">
-        <button class="back-btn">&#8592;</button>
-        <img src="logo.png" alt="HardSet Logo" class="logo" />
-      </div>
-      <div class="points">0 pontos</div>
-    </header>
-
-    <div class="tabs">
-      <button class="tab active">Em Destaque</button>
-      <button class="tab">Proximos eventos</button>
-    </div>
+  
 
     <section class="highlight-matches">
-      <div class="match-card">
+      <div class="match-card"> Acontecendo <br>agora <br>
         <div class="teams">
-          <img src="team1.png" alt="Time 1" />
+          <img src="../style/assets/bandeira5.png" alt="Time 1" />
           <span>vs</span>
-          <img src="team2.png" alt="Time 2" />
+          <img src="../bandeira3.png" alt="Time 2" />
         </div>
       </div>
-      <div class="match-card">
-        <div class="teams">
-          <img src="team3.png" alt="Time 1" />
+      <br>
+      <div class="match-card"> Acontecendo agora
+        <p><div class="teams"></p>
+          <img src="../banderiaaa.png" alt="Time 1" /><br>
           <span>vs</span>
-          <img src="team4.png" alt="Time 2" />
+          <img src="../style/assets/bandeira8.png" alt="Time 2" />
         </div>
       </div>
     </section>
 
     <section class="today-matches">
-      <div class="match-box">
-        <p class="time">Hoje 11:30</p>
+      <div class="match-box"> AINDA HOJE!! 
+        <p class="time"> <br></p>
         <div class="teams">
-          <img src="team1.png" alt="Time 1" />
+          <img src="../style/assets/bandeira4.png" alt="Time 1" />
           <span>vs</span>
-          <img src="team2.png" alt="Time 2" />
+          <img src="../style/assets/bandeira2.png" alt="Time 2" />
         </div>
         <div class="odds">
           <span>1</span><span>1.5</span>
@@ -70,35 +65,28 @@
         </div>
       </div>
 
-      <div class="match-box">
-        <p class="time">Hoje 11:30</p>
+      <div class="match-box"> AINDA HOJE!!
+        <p class="time">  <br></p>
         <div class="teams">
-          <img src="team3.png" alt="Time 1" />
+          <img src="../style/assets/bandeira5.png" alt="Time 1" />
           <span>vs</span>
-          <img src="team4.png" alt="Time 2" />
+          <img src="../style/assets/bandeira6.webp" alt="Time 2" />
         </div>
         <div class="odds">
           <span>1</span><span>1.2</span>
           <span>x</span><span>4.0</span>
           <span>2</span><span>?</span>
+          <br>
         </div>
       </div>
     </section>
 
-    <section class="featured-bets">
-      <p>Partidas em destaque</p>
-      <div class="bet">
-        <span>x</span>
-        <span>Time 2</span>
-        <span>1.50</span>
-        <small>Resultado final</small>
-        <small>Time 1 vs Time 2</small>
-      </div>
-    </section>
-
     <footer>
-      <button class="footer-btn">Valor da SET</button>
-      <button class="footer-btn primary">Fazer SET</button>
+
+      
+      <a href="fazerset.html" target="_blank">
+  <button class="footer-btn primary">Fazer Set</button>
+</a>
     </footer>
   </div>
 </body>

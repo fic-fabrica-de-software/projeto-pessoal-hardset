@@ -1,78 +1,77 @@
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>hardset</title>
     <link rel="stylesheet" href="../style/style.css">
     <script src="../script/toggle.js" defer></script>
 </head>
-<header>
-     <nav> 
-      <p><img src="../style/assets/IESEM (1).png" alt="logo" id="logo_hardset"></p>
-           <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+<body>
+  <header>
+    <script>
+  function toggleMenu() {
+    const menu = document.getElementById("menu");
+    menu.classList.toggle("active"); // por exemplo
+  }
+</script>
+    <nav>
+      <img src="../style/assets/IESEM (1).png" alt="logo" id="logo_hardset">
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
       <div id="menu">
         <ul>
-           <li><a href="pagina_inicial.html">Início</a></li>
+          <li><a href="pagina_inicial.html">Início</a></li>
          <li><a href="hoje.html">Hoje</a></li>
           <li><a href="amanha.html">Amanhã</a></li>
           <li><a href="calendario.html">Calendario</a></li>
           <li><a href="set's.html">Set's</a></li>
           <li><a href="fotos.html">Fotos</a></li>
         </ul>
-      </div> 
+      </div>
     </nav>
-</header><!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina de Esportes</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+  </header>
 <body>
-    <div class="container">
-        <header>
-            <div class="flags">
-                <img src="/style/assets/bandeira3.png" alt="Flag 1">
-                <img src="img/flag2.png" alt="Flag 2">
-                <img src="img/flag3.png" alt="Flag 3">
-            </div>
-        </header>
+     
+  <div class="podium">
+    <div class="p1"><img class="bandeiraa" src="../bandeira3.png"></div>
+    <div class="p2"><img class="bandeiraa" src="../style/assets/bandeira6.webp"></div>
+    <div class="p3"><img class="bandeiraa" src="../style/assets/bandeira2.png"></div>
+  </div>
 
-        <section class="icons">
-            <div class="icon"><img src="img/bell.png" alt="Bell"></div>
-            <div class="icon"><img src="img/basketball.png" alt="Basketball"></div>
-            <div class="icon"><img src="img/soccer.png" alt="Soccer"></div>
-            <div class="icon"><img src="img/volleyball.png" alt="Volleyball"></div>
-        </section>
-
-        <section class="tabs">
-            <button class="tab">Hoje</button>
-            <button class="tab">Amanhã</button>
-            <button class="tab">Live</button>
-            <button class="tab">Calendário</button>
-            <button class="tab">Set's</button>
-        </section>
-
-        <section class="current-event">
-            <h2>Acontecendo Agora</h2>
-            <div class="match">
-                <img src="img/flag1.png" alt="Flag 1">
-                <p>1</p>
-                <span>VS</span>
-                <p>1</p>
-                <img src="img/flag2.png" alt="Flag 2">
-            </div>
-        </section>
-
-        <section class="photos">
-            <h3>Imagens</h3>
-            <div class="image-gallery">
-                <img src="img/photo1.jpg" alt="Image 1">
-                <img src="img/photo2.jpg" alt="Image 2">
-                <img src="img/photo3.jpg" alt="Image 3">
-            </div>
-        </section>
+  <div class="card">
+    <h2>ACONTECENDO AGORA</h2>
+    <div class="match">
+      <div>
+        <img src="../style/assets/bandeira8.png" alt="Team1" >
+        <p>2</p>
+      </div>
+      <span><b>vs</b></span>
+      <div>
+        <img src="../style/assets/bandeira5.png" alt="Team2">
+        <p>1</p>
+      </div>
     </div>
+  </div>
+
+  <div class="gallery">
+    <img src="../style/assets/trofeu.JPG" alt="Winners">
+    
+    <img src="../style/assets/turmasc.JPG" alt="Winners">
+        <img src="../style/assets/turma.JPG" alt="Winners">
+    <img src="../style/assets/trofeeeu.JPG" alt="Winners">
+
+  </div>
+  <div class="card">
+  <h2>ARRECADAÇÃO ATUAL</h2>
+    <div class="match">
+      ITENS DE HIGIENE - 300 KITS <br> <br>
+      RAÇÃO - 200KG <br> <br>
+      ARROZ E FEIJÃO - 600KG 
+      
+      </div>
+    </div>
+  </div>
 </body>
+</html>
 </html>
