@@ -23,12 +23,12 @@
            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
       <div id="menu">
         <ul>
-           <li><a href="pagina_inicial.html">Início</a></li>
-         <li><a href="hoje.html">Hoje</a></li>
-          <li><a href="amanha.html">Amanhã</a></li>
-          <li><a href="calendario.html">Calendario</a></li>
-          <li><a href="set's.html">Set's</a></li>
-          <li><a href="fotos.html">Fotos</a></li>
+          <li><a href="pagina_inicial.php">Início</a></li>
+          <li><a href="hoje.php">Hoje</a></li>
+          <li><a href="amanha.php">Amanhã</a></li>
+          <li><a href="calendario.php">Calendario</a></li>
+          <li><a href="set's.php">Set's</a></li>
+          <li><a href="fotos.php">Fotos</a></li>
  
         </ul>
       </div> 
