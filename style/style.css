@@ -350,7 +350,7 @@ nav {
     padding: 8px 1vw;
   }
   .jogo-card {
-    padding: 2px 2px;
+    padding: 20px;
     min-height: 38px;
   }
   .bandeira {
@@ -417,10 +417,12 @@ nav {
     .match {
       display: flex;
       justify-content: space-around;
-      align-items: center;
+      align-items: end;
     }
     .match div {
       text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+
     }
     .gallery {
       display: grid;
