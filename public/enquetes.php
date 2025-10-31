@@ -1,3 +1,4 @@
+
 <?php
 
 
@@ -26,33 +27,39 @@
           <li><a href="pagina_inicial.php">Início</a></li>
           <li><a href="hoje.php">Hoje</a></li>
           <li><a href="amanha.php">Amanhã</a></li>
-          <li><a href="live.php">Live</a></li>
           <li><a href="calendario.php">Calendario</a></li>
           <li><a href="enquetes.php">Enquetes</a></li>
           <li><a href="fotos.php">Fotos</a></li>
+ 
         </ul>
       </div> 
     </nav>
 </header>
 <body>
-    <div class="container-fotos">
-        <div class="fotos-header">
-            <h2>Fotos <img src="../style/assets/caderno..png" alt="Ícone fotos" class="icon-fotos"></h2>
-        </div>
+    <div class="container-hoje">
+        <h2>Enquetes</h2>
         <hr>
-        <div class="fotos-lista">
-            <img src="../style/assets/jogo3.JPG" alt="Foto do evento" class="foto-item">
-            <img src="../style/assets/im1.JPG" alt="Foto do evento" class="foto-item">
-            <img src="../style/assets/jogo4.JPG" alt="Foto do evento" class="foto-item">
-
-            <img src="../style/assets/im2.JPG" alt="Foto do evento" class="foto-item">
-            <img src="../style/assets/im3.JPG" alt="Foto do evento" class="foto-item">
-            <img src="../style/assets/im5.JPG" alt="Foto do evento" class="foto-item">
-            <img src="../style/assets/im6.JPG" alt="Foto do evento" class="foto-item">
-            <img src="../style/assets/im7.JPG" alt="Foto do evento" class="foto-item">
-            <img src="../style/assets/im8.JPG" alt="Foto do evento" class="foto-item">
-          
-
+        <div class="jogos-lista">
+            <div class="jogo-card">
+                <div class="jogo-info">
+                    <h2>Qual torcida é a mais animada?</h2>
+                </div>
+            </div>
+            <div class="jogo-card">
+                <div class="jogo-info">
+                    <h2>Quem vai ser o campeão deste ano?</h2>
+                </div>
+            </div>
+            <div class="jogo-card">
+                <div class="jogo-info">
+                   <h2>Qual foi o melhor jogo?</h2>
+                </div>
+            </div>
+            <div class="jogo-card">
+                <div class="jogo-info">
+                    <h2>Qual esporte novo você gostaria de ver no próximo ano?</h2>
+                </div>
+            </div>
         </div>
     </div>
 </body>

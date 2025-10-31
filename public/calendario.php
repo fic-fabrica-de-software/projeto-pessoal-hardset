@@ -16,7 +16,7 @@
         <script>
   function toggleMenu() {
     const menu = document.getElementById("menu");
-    menu.classList.toggle("active"); // por exemplo
+    menu.classList.toggle("active"); 
   }
 </script>
       <p><img src="../style/assets/IESEM (1).png" alt="logo" id="logo_hardset"></p>
@@ -26,8 +26,9 @@
          <li><a href="pagina_inicial.php">Início</a></li>
           <li><a href="hoje.php">Hoje</a></li>
           <li><a href="amanha.php">Amanhã</a></li>
+          <li><a href="live.php">Live</a></li>
           <li><a href="calendario.php">Calendario</a></li>
-          <li><a href="set's.php">Set's</a></li>
+          <li><a href="enquetes.php">Enquetes</a></li>
           <li><a href="fotos.php">Fotos</a></li>
         </ul>
       </div> 

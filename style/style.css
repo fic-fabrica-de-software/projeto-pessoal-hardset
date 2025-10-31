@@ -51,13 +51,22 @@ nav {
 }
 
 #live {
-  width: 60px;
-  height: 60px;
+  width: 10px;
+  height: 10px;
   display: inline-block;
   margin-left: 10px;
   vertical-align: middle;
 }
 
+#live h3{
+color: #001552;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.live{
+  width: 380px;
+  display: inline-block;
+}
 .menu-toggle {
   cursor: pointer;
   font-size: 32px;
@@ -318,7 +327,7 @@ nav {
   margin-top: 0;
   font-size: 1.5rem;
   font-weight: bold;
-color: #0d084d;
+  color: #0d084d;
 }
 
 .container-calendario hr {
