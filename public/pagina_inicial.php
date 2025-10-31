@@ -69,9 +69,9 @@
   <div class="card">
   <h2>ARRECADAÇÃO ATUAL</h2>
     <div class="match">
-      ITENS DE HIGIENE - 300 KITS <br> <br>
-      RAÇÃO - 200KG <br> <br>
-      ARROZ E FEIJÃO - 600KG 
+      Itens de higiene - 300 KITS <br> <br>
+      Ração - 200KG <br> <br>
+      Arroz e feijão - 600KG 
       
       </div>
     </div>

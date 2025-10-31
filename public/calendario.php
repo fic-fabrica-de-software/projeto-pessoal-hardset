@@ -102,6 +102,6 @@
             </tbody>
         </table>
     </div>
-    <p><br>.           obs: os dias em negrito são os dias de jogos!</p>
+    <p><br>             obs: os dias em negrito são os dias de jogos!</p>
 </body>
 </html>

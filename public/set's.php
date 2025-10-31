@@ -66,11 +66,11 @@
         <div class="odds">
           <span>1</span><span>1.5</span>
           <span>x</span><span>4.0</span>
-          <span>2</span><span>7.0</span>
+          <span>2</span>
         </div>
       </div>
 
-      <div class="match-box"> AINDA HOJE!!
+      <div class="match-box">AINDA HOJE!!
         <p class="time">  <br></p>
         <div class="teams">
           <img src="../style/assets/bandeira5.png" alt="Time 1" />
@@ -80,7 +80,7 @@
         <div class="odds">
           <span>1</span><span>1.2</span>
           <span>x</span><span>4.0</span>
-          <span>2</span><span>?</span>
+          <span>2</span>
           <br>
         </div>
       </div>
@@ -90,7 +90,8 @@
 
       
       <a href="fazerset.html" target="_blank">
-  <button class="footer-btn primary">Fazer Set</button>
+      <button class="footer-btn primary"> <a href="fazerset.php" role="button">Fazer set</a></button>
+ 
 </a>
     </footer>
   </div>

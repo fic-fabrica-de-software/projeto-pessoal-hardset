@@ -1,22 +1,23 @@
 body {
-  background: linear-gradient(120deg, #193154 0%, #25487b 100%);
+  background: linear-gradient(120deg, #fafcff 0%, #25487b 100%);
   min-height: 100vh;
   margin: 0;
   padding: 0;
 }
 
 nav {
-  background-color: #25487b;
+  background-color: #c2d4ee;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 30px;
+  margin-top: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 #logo_hardset {
   height: 75px;
-  margin: 10px 0;
+  margin: 20px;
 }
 
 .login {
@@ -62,10 +63,10 @@ nav {
   font-size: 32px;
   z-index: 4;
   position: relative;
-  color: #3f3d34;
+  color: #0d2338;
   padding: 10px 18px;
   border-radius: 8px;
-  background: rgba(25, 49, 84, 0.15);
+  background: rgba(25, 49, 84, 0.089);
   transition: background 0.2s;
 }
 
@@ -155,11 +156,9 @@ nav {
 }
 
 .container-hoje {
-  background: #22395a;
+ 
   border-radius: 10px;
-  max-width: 440px;
-  margin: 36px auto 0 auto;
-  padding: 20px 12px 28px 12px;
+  margin: 20px auto 0 auto;
   color: #fff;
   box-shadow: 0 2px 12px rgba(0,0,0,0.08);
   font-family: Arial, Helvetica, sans-serif;
@@ -167,15 +166,19 @@ nav {
 
 .container-hoje h2 {
   margin-top: 0;
-  font-size: 1.7rem;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: 0.5px;
+  flex-direction: 10px;
+  color: #0d2338;
+  margin-left: 25px;
 }
 
 .container-hoje hr {
   border: none;
-  border-top: 1.5px solid #fff;
-  margin-bottom: 14px;
+  border-top: 1px solid #fff;
+  margin-bottom: 20px;
 }
 
 .jogos-lista {
@@ -192,8 +195,9 @@ nav {
   padding: 10px 15px;
   min-height: 100px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.04);
-  gap: 100px;
-  border: 10px solid #e0e0e0;
+  border: 10px solid #3b5e92;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .bandeira {
@@ -220,7 +224,7 @@ nav {
 .jogo-info {
   flex: 1;
   display: flex;
-  flex-direction: column;
+  flex-direction: center;
   align-items: flex-start;
   justify-content: center;
   padding: 0 6px;
@@ -242,10 +246,10 @@ nav {
 }
 
 .container-fotos {
-  background: #22395a;
+  background: #426fad63;
   border-radius: 10px;
   max-width: 540px;
-  margin: 36px auto 0 auto;
+  margin: 30px;
   padding: 20px 12px 28px 12px;
   color: #fff;
   box-shadow: 0 2px 12px rgba(0,0,0,0.08);
@@ -279,25 +283,30 @@ nav {
   margin: 12px 0 18px 0;
 }
 
+.container-fotos h2 {
+  color: #0d084d;
+  margin-left: 10px;
+}
+
 .fotos-lista {
   display: flex;
   flex-direction: column;
   gap: 18px;
+  margin: 10px;
 }
 
 .foto-item {
   width: 100%;
-  max-width: 500px;
+  max-width: 200px;
   border-radius: 7px;
   box-shadow: 0 1px 6px rgba(0,0,0,0.10);
-  margin: 0 auto;
+ 
   display: block;
 }
 
 .container-calendario {
-  background: #22395a;
   border-radius: 10px;
-  max-width: 420px;
+  max-width:200px;
   margin: 36px auto 0 auto;
   padding: 20px 12px 28px 12px;
   color: #fff;
@@ -309,6 +318,7 @@ nav {
   margin-top: 0;
   font-size: 1.5rem;
   font-weight: bold;
+color: #0d084d;
 }
 
 .container-calendario hr {
@@ -350,8 +360,7 @@ nav {
     padding: 8px 1vw;
   }
   .jogo-card {
-    padding: 20px;
-    min-height: 38px;
+    padding: 15px;
   }
   .bandeira {
     width: 32px;
@@ -404,7 +413,7 @@ nav {
       font-size: 12px;
     }
     .card {
-      background: #121d58;
+      background: #4a67a3;
       margin: 20px;
       padding: 15px;
       border-radius: 8px;
@@ -412,7 +421,9 @@ nav {
     }
     .card h2 {
       margin-bottom: 10px;
-      font-size: 14px;
+      font-size: 18px;
+      color: #000924;
+      align-items: baseline;
     }
     .match {
       display: flex;
@@ -518,11 +529,14 @@ header {
 }
 
 .match-card {
-  background-color: #1e4b7e;
+  background-color: #adc6e4;
   padding: 10px;
   flex: 1;
   text-align: center;
   border-radius: 5px;
+  color: #0d084d;
+  font-weight: bold;
+  margin: 10px;
 }
 
 .teams {
@@ -545,10 +559,14 @@ header {
 }
 
 .match-box {
-  background-color: #1e4b7e;
+  background-color: #adc6e4;
   padding: 10px;
   flex: 1;
   border-radius: 5px;
+  color: #0d084d;
+  font-weight: bold;
+  margin: 10px;
+  text-align: center;
 }
 
 .time {
@@ -595,8 +613,17 @@ footer {
 .footer-btn.primary {
   background-color: #ffcc00;
   color: black;
+  margin: 10px;
+  align-items: center;
+  border-color: #001552;
+  border: 10px;
+  text-decoration: none;
 }
 
+.footer-btn.primary a {
+  text-decoration: none;
+  color: #000924;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
